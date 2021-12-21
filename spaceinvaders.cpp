@@ -10,7 +10,7 @@ CSpaceInvaders::CSpaceInvaders(QSize oScreenSize, QWidget *pParent)
 
     pScene->setSceneRect(0, 0, m_oScreenSize.width(), m_oScreenSize.height());
 
-    setBackgroundBrush(QBrush(QImage("Resources/SpaceInvadersBg.jpg")));
+    setBackgroundBrush(QBrush(QImage(":/Resources/SpaceInvadersBg.jpg")));
     setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     setCursor(Qt::PointingHandCursor);
